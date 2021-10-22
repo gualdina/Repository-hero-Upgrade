@@ -1,0 +1,12 @@
+#Database
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bootcamp
+    username: root
+    password: ndjchrfK.1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    hibernate.ddl-auto: update
+  liquibase:
+    enabled: false
